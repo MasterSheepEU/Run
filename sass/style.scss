@@ -311,3 +311,145 @@ form{
 
 
 
+
+
+
+
+
+
+
+@media screen and (max-width :  900px){
+
+    header{
+        flex-direction: column;
+
+        .text-road{
+            width: 100%;
+
+            h1{
+                margin: auto;
+            }
+
+            p{
+                margin: auto;
+                text-align: center;
+            }
+
+            button{
+                width: 35%;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        
+            }
+
+        }
+
+        .image-road{
+            width: 90%;
+            height: 50%;
+            margin: auto;
+        }
+    }
+
+    .forest-road{
+        flex-direction: column;
+        height: 100%;
+
+        .forest-text{
+            width: 100%;
+
+
+            h2{
+                margin: auto;
+            }
+
+            p{
+                margin: auto;
+                text-align: center;
+            }
+
+            button{
+                width: 35%;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        .forest-image{
+            order: 2;
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+
+    .bridge-road{
+        flex-direction: column;
+        height: 100%;
+
+        .bridge-text{
+            width: 100%;
+            height: 50%;
+
+            h2{
+                margin: auto;
+            }
+
+            p{
+                text-align: center;
+            }
+
+            button{
+                width: 35%;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+
+        .bridge-image{
+            width: 90%;
+            height: 50%;
+            margin: auto;
+        }
+
+    }
+
+
+    .forest-road .forest-image:after,.bridge-road .bridge-image:after,h3:after{
+        visibility: hidden;
+    }
+
+    .contact-details{
+
+        .contact-name{
+            width: 40%;
+        }
+
+        .contact-email{
+            width: 40%;
+        }
+    }
+
+    .message{
+        
+        textarea{
+            width: 77%;
+        }
+    }
+
+    #btn{
+        width: 40%;
+    }
+
+
+}
+
+
+
+
+

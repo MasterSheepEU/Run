@@ -245,4 +245,96 @@ form {
   border-radius: 25px;
 }
 
+@media screen and (max-width: 900px) {
+  header {
+    flex-direction: column;
+  }
+  header .text-road {
+    width: 100%;
+  }
+  header .text-road h1 {
+    margin: auto;
+  }
+  header .text-road p {
+    margin: auto;
+    text-align: center;
+  }
+  header .text-road button {
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  header .image-road {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+  }
+  .forest-road {
+    flex-direction: column;
+    height: 100%;
+  }
+  .forest-road .forest-text {
+    width: 100%;
+  }
+  .forest-road .forest-text h2 {
+    margin: auto;
+  }
+  .forest-road .forest-text p {
+    margin: auto;
+    text-align: center;
+  }
+  .forest-road .forest-text button {
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .forest-road .forest-image {
+    order: 2;
+    width: 90%;
+    margin: auto;
+  }
+  .bridge-road {
+    flex-direction: column;
+    height: 100%;
+  }
+  .bridge-road .bridge-text {
+    width: 100%;
+    height: 50%;
+  }
+  .bridge-road .bridge-text h2 {
+    margin: auto;
+  }
+  .bridge-road .bridge-text p {
+    text-align: center;
+  }
+  .bridge-road .bridge-text button {
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .bridge-road .bridge-image {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+  }
+  .forest-road .forest-image:after, .bridge-road .bridge-image:after, h3:after {
+    visibility: hidden;
+  }
+  .contact-details .contact-name {
+    width: 40%;
+  }
+  .contact-details .contact-email {
+    width: 40%;
+  }
+  .message textarea {
+    width: 77%;
+  }
+  #btn {
+    width: 40%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
