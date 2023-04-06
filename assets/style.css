@@ -246,6 +246,25 @@ form {
 }
 
 @media screen and (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+  .forest-road .forest-text p, .bridge-road .bridge-text p, header .text-road p {
+    line-height: 30px;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+  .forest-road .forest-text h2, .bridge-road .bridge-text h2 {
+    font-size: 2rem;
+    margin: auto;
+  }
+  .forest-road .forest-text button, .bridge-road .bridge-text button, header .text-road button {
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   header {
     flex-direction: column;
   }
@@ -253,17 +272,11 @@ form {
     width: 100%;
   }
   header .text-road h1 {
+    font-size: 3rem;
     margin: auto;
   }
   header .text-road p {
-    margin: auto;
-    text-align: center;
-  }
-  header .text-road button {
-    width: 35%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 1.2rem;
   }
   header .image-road {
     width: 90%;
@@ -277,19 +290,6 @@ form {
   .forest-road .forest-text {
     width: 100%;
   }
-  .forest-road .forest-text h2 {
-    margin: auto;
-  }
-  .forest-road .forest-text p {
-    margin: auto;
-    text-align: center;
-  }
-  .forest-road .forest-text button {
-    width: 35%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
   .forest-road .forest-image {
     order: 2;
     width: 90%;
@@ -302,18 +302,6 @@ form {
   .bridge-road .bridge-text {
     width: 100%;
     height: 50%;
-  }
-  .bridge-road .bridge-text h2 {
-    margin: auto;
-  }
-  .bridge-road .bridge-text p {
-    text-align: center;
-  }
-  .bridge-road .bridge-text button {
-    width: 35%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
   .bridge-road .bridge-image {
     width: 90%;
